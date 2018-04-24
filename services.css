@@ -6,54 +6,43 @@ body {
   background: white; }
 
 /*-----------------------Navigation-----------------------*/
+
+
+.navbar {
+  font-size: 22px;
+  padding: 0px;}
+
+.navbar-nav li {
+  margin-right: 10px;
+}
+
+.navbar-brand {
+font-family: "Montserrat", serif;
+    text-shadow: 1px 4px 5px black; 
+    margin: 0px;}
+
+  #active {
+      background-color: rgba(0, 160, 0, 0.3);
+    }
+.navbar-nav a {
+  color: black;
+  font-family: Montserrat;
+}
+.navbar-nav a:hover {
+    color: rgba(0, 160, 0, 0.3) !important;
+  }
+
 .Nav {
-  background-color: white;
   width: 100%;
   overflow: hidden;
-  z-index: 5;
   color: black;
-  margin-top: 0px; }
-  .Nav .nav2 {
-    background-color: transparent;
-    height: 100%;
-    width: 100%; }
-  .Nav h2 {
-    font-family: "Montserrat", serif;
-    padding: 25px 10px 10px 15px; 
-    text-shadow: 1px 4px 6px black; }
+  margin: 0px; }
 
-  .Nav .menu {
-    background-color: transparent;
-    font-family: "Noto-Sans";
-    letter-spacing: 0.2em;
-    height: 100%;
-    width: 100%;
-    padding: 25px 0px 19px 0px; }
-    .Nav .menu a {
-      height: 100%;
-      width: 100%;
-      padding: 10px 30px;
-      font-size: 25px;
-      color: black;
-      font-weight: 400; }
-    .Nav .menu a.active {
-      background-color: rgba(0, 160, 0, 0.3);
-      border-radius: 5px;
-      padding: 12px 30px; }
-    .Nav .menu a:hover {
-      text-decoration: none;
-      background-color: transparent;
-      color: rgba(0, 160, 0, 0.3); }
-    .bars {
-        display: none;}
-    .overlay {
-        display: none;
-      }
 
 /*------------------Heading-----------------*/
 .header {
   margin-top: 10px;
-  padding: 50px 10px;
+  padding: 30px 10px;
   font-family: bitter;
   border-bottom: double rgba(0, 0, 0, 0.6) 15px;
   border-top: #00a000 solid 50px;
@@ -64,7 +53,7 @@ body {
       font-size: 3.5em;
       font-family: Montserrat;
       background: linear-gradient(to bottom right, rgba(0, 160, 0, 0.3), white, rgba(0, 160, 0, 0.3));
-      padding: 30px;
+      padding: 40px;
       border-radius: 10px; }
     .header .title #top {
       font-size: 1.3em;
@@ -121,73 +110,6 @@ body {
 
   @media only screen and (max-width: 768px) {
 
-.Nav .menu {
-      display: none;
-    }
-    .Nav h2 {
-      display: none;
-    }
-    .nav2 {
-      display: block;
-      padding: 0px;
-    }
-    .bars p {
-      font-size: 16px;
-      padding: 8px 0px 0px 8px;
-      margin: 0px;
-      width: 80%;
-      display: inline;
-      float: left;
-      text-align: left;
-      font-family: "Montserrat", serif;
-      text-shadow: 1px 4px 5px black; }
-
-    .bars {
-      display: inline;
-      width: 100%;
-      font-size: 36px;
-      color: black;
-      text-align: right;
-      padding: 0px;
-      margin: 0px;
-      }
-
-      .bars:hover {
-       
-      }
-    .bars:hover .overlay {
-      display: block;
-
-    }
-    .overlay {
-      border: black solid 2px;
-      position: absolute;
-      top: 45px;
-      right: 15px;
-      background-color: rgb(210, 210, 210);
-      font-size: 14px;
-      font-family: "Montserrat", sans-serif;
-      margin: 0px;
-      padding: 0px;
-      z-index: 5;
-    }
-    .overlay a {
-      text-decoration: none;
-      color: black;
-      width: 100%;
-      margin: 0px;
-      padding: 0px;
-    }  
-    .overlay a:hover {
-      text-decoration: none;
-      color: black;
-    }
-    .overlay td {
-      padding: 8px;
-    }
-    .overlay td:hover {
-      background-color: rgba(0, 160, 0, 0.3);
-    }
 
    .header {
       border-top: #00a000 solid 30px;
