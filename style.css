@@ -1,0 +1,223 @@
+* {
+  box-sizing: border-box;
+   }
+
+body {
+  background: white; }
+
+/*-----------------------Navigation-----------------------*/
+
+
+
+.navbar {
+  font-size: 22px;
+  padding: 0px;}
+
+.navbar-nav li {
+  margin-right: 10px;
+}
+
+.navbar-brand {
+font-family: "Montserrat", serif;
+    text-shadow: 1px 4px 5px black; 
+    margin: 0px;}
+
+  #active {
+      background-color: rgba(0, 160, 0, 0.3);
+    }
+.navbar-nav a {
+  color: black;
+  font-family: Montserrat;
+}
+.navbar-nav a:hover {
+    color: rgba(0, 160, 0, 0.3) !important;
+  }
+/*
+.Nav {
+  width: 100%;
+  overflow: hidden;
+  color: black;
+  margin: 0px; }
+*/
+   
+
+/*------------------Heading-----------------*/
+.header {
+  margin-top: 10px;
+  text-align: center;
+  font-family: bitter;
+  border-bottom: #00a000 solid 50px;
+  border-top: #00a000 solid 50px;
+  padding-bottom: 0px;
+  background: url("money.jpg") no-repeat center center;
+  height: auto; }
+  .header .row {
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 100%; }
+  .header .title {
+    padding: 70px;
+    text-align: center; }
+    .header .title h1 {
+      font-size: 4.4em;
+      padding-bottom: 20px; }
+    .header .title h2 {
+      font-size: 2.3em; }
+  .header img {
+    width: 100%; }
+
+/*-------------Welcome Section------------*/
+.welcome {
+  border-bottom: double rgba(0, 0, 0, 0.6) 15px;
+  height: auto; }
+  .welcome h1 {
+    font-family: "Montserrat";
+    text-align: center;
+    font-size: 2.2em;
+    letter-spacing: 0.13em;
+    padding: 50px 140px 50px 140px;
+    border-top: black solid 2px;
+    margin-top: 50px; }
+    }
+
+.sections {
+  background-color: white;
+  height: auto; }
+
+
+  .sections .sec {
+    margin: 50px 0px;
+    height: auto; }
+  .sections .about {
+    font-family: "noto sans", sans-serif;
+    text-align: center; }
+  .sections .service {
+    background: linear-gradient(to bottom right, rgba(0, 160, 0, 0.3), white, rgba(0, 160, 0, 0.3));
+    border-radius: 15px;
+    color: black;
+    font-family: "noto sans", sans-serif;
+    letter-spacing: 0.15em;
+    padding: 1px 0px 20px 0px;
+    margin-top: 40px; }
+    .sections .service p {
+      font-size: 1.5em; }
+    .sections .service ul {
+      list-style: circle;
+      font-size: 1em;
+      margin: 20px; }
+      .sections .service ul li {
+        padding: 10px; }
+  .sections p {
+    padding: 40px 20px 10px 30px;
+    font-size: 1.5em; }
+  .sections .img-container {
+    width: 70%;
+    height: auto;
+    margin: 0 auto; }
+  .sections img {
+    width: 100%;
+    margin: auto 0;
+      border-radius: 5px;
+      border: solid 3px rgba(0, 160, 0, 0.3);
+      padding: 5px; }
+/*  .sections .quote {
+    margin: 70px 18%;
+    border: black 1px solid;
+    box-shadow: black 0px 0px 15px;
+    border-radius: 10px;
+    font-family: "noto sans", sans-serif; }
+  .sections .q1 {
+    padding: 25px 25px 5px 25px; }
+  .sections .q2 {
+    padding: 5px 25px 15px 25px;
+    float: right; }*/
+
+/* ------------footer ----------------*/
+.footer {
+  height: auto;
+  background: rgba(0, 160, 0, 0.3); }
+  .footer .aadmm {
+    margin: auto 0; }
+    .footer .aadmm img {
+      padding-top: 20px;
+      width: 50%;
+      margin: 0px 25%; }
+  .footer ul {
+    list-style: none;
+    padding: 1.5%; }
+  .footer .icons {
+    font-size: 36px;
+    text-align: center;
+    margin: 40px auto;
+    color: black; }
+    .footer .icons a {
+      padding: 40px 25px;
+      color: black; }
+    .footer .icons a:hover {
+      color: #969696;
+      text-decoration: none; }
+  .footer .contact {
+    padding: 15px 5px 5px 5px;
+    text-align: center; }
+    .footer .contact a {
+      color: black; }
+    .footer .contact a:hover {
+      color: #969696;
+      text-decoration: none; }
+  .footer .copyright {
+    text-align: center; }
+
+    
+
+
+/*# sourceMappingURL=style.css.map */
+
+
+  @media only screen and (max-width: 768px) {
+    
+ 
+    .header {
+  border-bottom: #00a000 solid 30px;
+  border-top: #00a000 solid 30px;
+  padding-bottom: 0px;
+  }
+  .header .title{
+    padding: 40px;
+  }
+   .header .title h1 {
+      font-size:1.3em;}
+    .header .title h3 {
+       font-size: .8em; }
+    .sections p {
+        font-size: .8em;}
+    .sections .service p {
+      font-size: .6em; }
+    .sections .service ul {
+      font-size: .6em;
+       }
+    .welcome h1 {
+      font-size: 1.2em;
+      padding: 5px;
+    }
+  .footer .copyright {
+    font-size: .9em;
+  }
+  .footer .icons a {
+    padding: 10px;
+  }
+  .footer .icons {
+    margin: 5px auto;
+    padding: 0px;
+    font-size: 16px;
+  }
+  .footer ul {
+    padding: 0px;
+    margin: 0px;
+  }
+  .footer .contact {
+    padding: 0px;
+    font-size: .7em;
+  }
+  .footer h4 {
+    font-size: 1.3em;
+  }
+}

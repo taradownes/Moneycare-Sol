@@ -1,0 +1,184 @@
+* {
+  background-color: transparent;
+  box-sizing: border-box; }
+
+body {
+  background: white; }
+
+/*-----------------------Navigation-----------------------*/
+
+
+.navbar {
+  font-size: 22px;
+  padding: 0px;}
+
+.navbar-nav li {
+  margin-right: 10px;
+}
+
+.navbar-brand {
+font-family: "Montserrat", serif;
+    text-shadow: 1px 4px 5px black; 
+    margin: 0px;}
+
+  #active {
+      background-color: rgba(0, 160, 0, 0.3);
+    }
+.navbar-nav a {
+  color: black;
+  font-family: Montserrat;
+}
+.navbar-nav a:hover {
+    color: rgba(0, 160, 0, 0.3) !important;
+  }
+
+.Nav {
+  width: 100%;
+  overflow: hidden;
+  color: black;
+  margin: 0px; }
+
+
+/*------------------Main-----------------*/
+.header {
+  margin-top: 10px;
+  padding: 50px 10px;
+  font-family: "noto-sans";
+  border-bottom: double rgba(0, 0, 0, 0.6) 15px;
+  border-top: #00a000 solid 50px;
+  height: auto; }
+  .header h1 {
+    text-align: center;
+    padding: 10px 5px 40px 5px;
+    font-family: "Montserrat", sans-serif; }
+  .header input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 0px 0px 15px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: white; }
+  .header input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; }
+  .header input[type=submit]:hover {
+    background-color: #45a049; }
+  .header textarea {
+    width: 100%;
+    height: 300px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none; }
+  .header .contact {
+    border-radius: 5px;
+    background: linear-gradient(to bottom right, rgba(0, 160, 0, 0.3), white, rgba(0, 160, 0, 0.3));
+    padding: 50px 30px; }
+  .header ul {
+    list-style: none;
+    padding: 0; }
+  .header h3 {
+    font-size: 1.8em;
+    padding: 20px 0px;
+    font-family: "Montserrat"; }
+  .header li {
+    font-size: 1.3em; }
+  .header label {
+    font-family: "noto-sans", sans-serif;
+    font-weight: bold; }
+
+/* ------------footer ----------------*/
+.footer {
+  height: auto;
+  background: rgba(0, 160, 0, 0.3); }
+  .footer .aadmm {
+    margin: auto 0; }
+    .footer .aadmm img {
+      padding-top: 20px;
+      width: 50%;
+      margin: 0px 25%; }
+  .footer ul {
+    list-style: none;
+    padding: 1.5%; }
+  .footer .icons {
+    font-size: 36px;
+    text-align: center;
+    margin: 40px auto; }
+    .footer .icons a {
+      padding: 40px 25px;
+      color: black; }
+    .footer .icons a:hover {
+      color: #969696;
+      text-decoration: none;
+      z-index: 3; }
+  .footer .contact {
+    padding: 15px 5px 5px 5px;
+    text-align: center; }
+    .footer .contact a {
+      color: black; }
+    .footer .contact a:hover {
+      color: #969696;
+      text-decoration: none; }
+  .footer .copyright {
+    text-align: center; }
+
+/*# sourceMappingURL=contact.css.map */
+
+
+
+ @media only screen and (max-width: 768px) {
+    
+
+    .header {
+      border-top: #00a000 solid 30px;
+      padding: 10px 0px;
+    }
+    .header h1 {
+      font-size: 1.5em;
+      padding: 10px;}
+    .header h3 {
+      font-size: 1em;
+      padding: 5px 0px; }
+  .header li {
+    font-size: .8em; }
+
+.header input {
+    width: 100%;
+    padding: 0px;
+    margin: 0px 0px 15px 0px;}
+  .header input[type=submit] {
+    padding: 0px; }
+  .header textarea {
+    padding: 0px;
+    font-size: 16px; }
+  .header .contact {
+    padding: 10px 5px; }
+
+  .footer .copyright {
+    font-size: .9em;  }
+  .footer .icons a {
+    padding: 10px;  }
+  .footer .icons {
+    margin: 5px auto;
+    padding: 0px;
+    font-size: 16px;  }
+  .footer ul {
+    padding: 0px;
+    margin: 0px;}
+  .footer .contact {
+    padding: 0px;
+    font-size: .7em;  }
+  .footer h4 {
+    font-size: 1.3em;  }
+}
