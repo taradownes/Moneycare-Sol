@@ -15,7 +15,7 @@
     "express":"*"
   },
   "engines":{
-    "node":"*"
+    "node":"10.*"
   },
   "author": "mndowne",
   "license": "ISC",
